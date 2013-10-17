@@ -1,0 +1,3 @@
+#!/bin/sh
+xrandr --output VIRTUAL --left-of LVDS1 --mode 1920x1080
+DISPLAY=:8 screenclone -d :8 -x 1
